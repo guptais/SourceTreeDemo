@@ -12,7 +12,7 @@ namespace MyFirstWCFService
     {
         public string GetDetails(string Name)
         {
-            throw new NotImplementedException();
+            return "pankaj";
         }
 
         /// <summary>
