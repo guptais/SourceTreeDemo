@@ -19,15 +19,5 @@ namespace MyFirstWCFService
         {
             return "Hello " + name;
         }
-
-        /// <summary>
-        /// Method to hello message
-        /// </summary>
-        /// <param name="name"></param>
-        /// <returns></returns>
-        public string GetHelloMessage(string name)
-        {
-            return "Hello " + name;
-        }
     }
 }
