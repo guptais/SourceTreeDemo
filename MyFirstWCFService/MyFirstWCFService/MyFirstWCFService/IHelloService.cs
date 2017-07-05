@@ -13,5 +13,8 @@ namespace MyFirstWCFService
     {
         [OperationContract]
         string GetMessage(string Name);
+
+        [OperationContract]
+        string GetDetails(string Name);
     }
 }
